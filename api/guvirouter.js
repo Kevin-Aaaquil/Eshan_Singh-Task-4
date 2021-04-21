@@ -60,7 +60,7 @@ router.put('/guvis/:guviID', async (req, res) => {
     try {
         //res.send("PUT");
         const Guvi = await guviModel.findByIdAndUpdate(req.params.guviId, req.body);
-        awai(await Guvi).save();
+        await (await Guvi).save();
         res.send('Your data has been updated');
         console.log("PUT");
     } catch (err) {
