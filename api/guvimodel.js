@@ -30,7 +30,7 @@ const guviSchema = new Schema({
 
 },
     {
-        collection: 'modeldb'
+        collection: '<COLLECTION-NAME>'
     });
 
 const guvi = mongoose.model("guvimodel", guviSchema);
