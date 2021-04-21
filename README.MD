@@ -8,7 +8,7 @@ This is a project intended as submission for the Guvi club in SRM Chennai. The t
 
 Simply download the code by clicking on the `Download Code` button and selecting `Download ZIP` option or you could copy the https link and then in the command prompt enter the following command
 ```
-git clone https://github.com/Kevin-Aaaquil/Guvi-API.git
+git clone https://github.com/Kevin-Aaaquil/Eshan_Singh-Task-4.git
 ```
 
 ## Prerequisites
