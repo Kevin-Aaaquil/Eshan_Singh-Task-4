@@ -27,6 +27,10 @@ npm install
 ```
 MONGO_URI = "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority"
 ```
+### Step 3: Enter your collection name in the `guvimodel.js` within the code line that looks like this
+```
+collection: '<COLLECTION-NAME>'
+```
 
 ## You are all set up!!
 ### Just type the following command in the terminal and the code shall compile and run

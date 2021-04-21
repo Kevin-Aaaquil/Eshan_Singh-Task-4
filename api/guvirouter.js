@@ -1,12 +1,17 @@
+//requiring express
 const express = require('express');
+
+//setting up router
 const router = express.Router();
+
+//requiring Guvi Model
 const guviModel = require('../api/guvimodel');
 
 
 // Initializing ObjectId for Specific Get, Put & Delete requests
 const ObjectId = require("mongodb").ObjectID;
 
-// GET
+// GET 
 router.get('/guvis/', async (req, res) => {
     try {
         //res.send("GET");
@@ -79,4 +84,5 @@ router.delete('/guvis/:guviId', async (req, res) => {
     }
 });
 
+//exporting router
 module.exports = router;
