@@ -19,7 +19,7 @@ You need to have node.js already downloaded and setup in your computing system. 
 
 Well after you have downloaded your this code from github you need to perform a few tasks to set the code up and running
 
-### Step 1: Open terminal and write the following code
+### Step 1: Open terminal in VS Code and write the following code
 ```
 npm install 
 ```
